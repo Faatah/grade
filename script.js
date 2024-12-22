@@ -1,11 +1,11 @@
-let grade=85
+let grade=75
 
-if (grade>=90){
+if (grade>=90 || grade==100){
     console.log("You got an A grade")
-}else if(grade>=75){
+}else if(grade>=75 || grade==90){
     console.log("You got an B grade")
-}else if(grade>=60){
+}else if(grade>=60 || grade==75){
     console.log("You got an C grade")
-}else if(grade>=50){
+}else if(grade<=59){
     console.log("You got an FAILED")
 }
